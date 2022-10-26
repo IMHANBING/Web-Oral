@@ -56,6 +56,8 @@ function initTable() {
             col2.innerHTML = 'ELECTRONIC';
         } else if (album.albumType == 5) {
             col2.innerHTML = 'CLASSICAL';
+        } else if (album.albumType == 6) {
+            col2.innerHTML = 'OTHERS';
         }
 
         let col3 = newRow.insertCell(3);

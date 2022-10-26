@@ -22,6 +22,8 @@ function initInfo() {
         document.querySelector('#albumType').innerHTML = 'ELECTRONIC';
     } else if (album.albumType == 5) {
         document.querySelector('#albumType').innerHTML = 'CLASSICAL';
+    } else if (album.albumType == 6) {
+        document.querySelector('#albumType').innerHTML = 'OTHERS';
     }
 
 

@@ -66,6 +66,9 @@ button {
 .tbs{
     border: cyan dashed;
 }
+.tds {
+    font-size: 16px;
+}
 input{
     background-color: aliceblue;
     font-size: 20px

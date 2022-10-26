@@ -137,3 +137,18 @@ a:active{
     color: lightcyan;
     background-color: aquamarine;
 }
+.ast{
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 2px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    line-height: 2.2;
+    color: orchid;
+    border: orchid 2px dotted;
+    border-radius: 10px;
+    background-color: azure;
+    font-family: 'Heiti SC';
+}
