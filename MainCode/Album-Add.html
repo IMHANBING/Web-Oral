@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Album-add</title>
+    <link rel="stylesheet" href="../CSS/album-add.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="lefter">
+        <img src="../Resourse/hanbing.PNG" width="200" height="200" style="float: left">
+    </div>
+
+    <div class="header">
+
+    </div>
+
+    <div class="content">
+        <form id="formname" method="post">
+            <table
+                    width="80%"
+                    align="center"
+                    border="0"
+                    cellspacing="0"
+                    cellpadding="10">
+                <tr>
+                    <td>
+                        上架专辑
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table width="100%"
+                               align="center"
+                               border="1"
+                               class="tbs"
+                               cellspacing="0"
+                               cellpadding="10">
+                            <tr>
+                                <td>专辑</td>
+                                <td>
+                                    <input required type="text" id="albumName" name="albumName" size="18">
+                                </td>
+                                <td>歌手</td>
+                                <td>
+                                    <input required type="text" id="albumSinger" name="albumSinger" size="18">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>流派</td>
+                                <td class="tds" colspan="3">
+                                    <input type="radio" name="albumType" value="0" checked>POP&nbsp;
+                                    <input type="radio" name="albumType" value="1">R&B&nbsp;
+                                    <input type="radio" name="albumType" value="2">RAP&nbsp;
+                                    <input type="radio" name="albumType" value="3">SOUNDTRACK&nbsp;
+                                    <input type="radio" name="albumType" value="4">ELECTRONIC&nbsp;
+                                    <input type="radio" name="albumType" value="5">CLASSICAL&nbsp;
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>语言</td>
+                                <td colspan="3">
+                                    <select id="language">
+                                        <option value="0">中文</option>
+                                        <option value="1">韩语</option>
+                                        <option value="2">日语</option>
+                                        <option value="3">英语</option>
+                                        <option value="4">纯音乐</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>唱片公司</td>
+                                <td>
+                                    <input type="text" id="albumEntertainment" name="albumEntertainment" size="18">
+                                </td>
+                                <td>唱片类型</td>
+                                <td>
+                                    <input type="text" id="albumPublish" name="albumPublish" size="18">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>简介</td>
+                                <td colspan="3">
+                                    <textarea id="albumInfo" rows="5" cols="50"></textarea>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <button type="button" onclick="save()">保存</button>
+                        <button type="button" onclick="cancel()">取消</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <div class="footer">
+        <img src="../Resourse/button_hanbing.PNG" width="170" height="90" style="float: right">
+    </div>
+
+</div>
+
+<script src="../JavaScripts/album-add.js"></script>
+
+</body>
+</html>

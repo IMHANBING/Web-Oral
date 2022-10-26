@@ -1,0 +1,90 @@
+/*HTML样式*/
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: auto;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.lefter {
+    width: 200px;
+    height: 100vh;
+    float: left;
+
+    background-color: lavender;
+    opacity: 0.8;
+}
+
+.header {
+    width: calc(100% - 200px);
+    height: 60px;
+    float: right;
+
+    background-color: lavender;
+    opacity: 0.8;
+}
+
+.content {
+    width: calc(100% - 200px);
+    height: calc(100% - 60px - 100px);
+    float: right;
+    background-color: #fffef8;
+    box-sizing: border-box;
+    border-top: 2px cornflowerblue dashed;
+    border-left: 2px cornflowerblue dashed;
+    border-bottom: 2px cornflowerblue dashed;
+}
+
+.footer {
+    width: calc(100% - 200px);
+    height: 100px;
+    float: right;
+
+    background-color: lavender;
+    opacity: 0.8;
+}
+
+div {
+    font-family: "Heiti SC";
+}
+
+p {
+    font-size: 1.5em;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    line-height: 2;
+    color: lightpink;
+    border: 1px dashed lightpink;
+    font-size: 1.7em;
+    border-radius: 10px;
+    background-color: azure;
+    opacity: 0.7;
+}
+a:link{
+    color: lightseagreen;
+}
+a:visited{
+    color: lightpink;
+}
+a:focus{
+    border-bottom: 1px dashed;
+}
+a:hover{
+    color: lavender;
+    background-color: slateblue;
+    border: 2px dashed lightcyan;
+}
+a:active{
+    color: lightcyan;
+    background-color: aquamarine;
+}

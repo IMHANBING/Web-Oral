@@ -1,0 +1,139 @@
+/*表格样式*/
+table {
+    margin: 0 auto;
+    table-layout: fixed;
+    width: 100%;
+    color: lightseagreen;
+    font-size: 20px;
+    font-family: "Heiti SC";
+    background-color: lightcyan;
+    border-collapse: collapse;
+    opacity: 0.89;
+}
+
+th {
+    padding: 20px;
+}
+
+td {
+    padding: 20px;
+    text-align: center;
+}
+
+.trs {
+    border: 1px cyan dashed;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: azure;
+}
+
+tbody tr:nth-child(even) {
+    background-color: lightcyan;
+}
+
+thead, tfoot {
+    background-color: lightblue;
+}
+
+caption {
+    font-style: inherit;
+    font-size: 1em;
+    padding: 20px;
+    color: skyblue;
+    caption-side: top;
+    letter-spacing: 0.1em;
+    opacity: 0.8;
+}
+
+section {
+    /*实现元素水平居中一种方式：通过设置容器的左右外边距自动分配，使得容器在父容器中水平居中*/
+    margin: 0 auto;
+
+    width: 100%;
+    padding: 125px 1px 210px 1px;
+    color: lightseagreen;
+    font-size: 20px;
+}
+
+button {
+    font-style: inherit;
+    font-size: 0.8em;
+    color: lightseagreen;
+}
+
+
+/*HTML样式*/
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: auto;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.lefter {
+    width: 150px;
+    height: 100vh;
+    float: left;
+
+    background-color: lightcyan;
+    opacity: 0.8;
+}
+
+.header {
+    width: calc(100% - 150px);
+    height: 60px;
+    float: right;
+
+    background-color: lightcyan;
+    opacity: 0.8;
+}
+
+.content {
+    width: calc(100% - 150px);
+    height: calc(100% - 60px - 100px);
+    float: right;
+    background-color: azure;
+    box-sizing: border-box;
+    border-top: 2px cornflowerblue dashed;
+    border-left: 2px cornflowerblue dashed;
+    border-bottom: 2px cornflowerblue dashed;
+}
+
+.footer {
+    width: calc(100% - 150px);
+    height: 100px;
+    float: right;
+
+    background-color: lightcyan;
+    opacity: 0.8;
+}
+
+div {
+    font-size: 1.2em;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 2;
+    color: orchid;
+}
+
+a:link{
+    color: lightseagreen;
+}
+a:hover{
+    color: lavender;
+    background-color: slateblue;
+    border: 1px dashed lightcyan;
+}
+a:active{
+    color: lightcyan;
+    background-color: aquamarine;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Album-Manage</title>
+    <link rel="stylesheet" href="../CSS/album-list.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="lefter">
+        <a >
+            <img src="../Resourse/hanbing.PNG" width="150" height="150" style="float: left">
+        </a>
+    </div>
+
+    <div class="header">
+
+    </div>
+
+    <div class="content">
+        <table width="50%"
+               align="center"
+               border="0"
+               cellspacing="0"
+               cellpadding="10">
+            <tr>
+                <td class="addlt">
+                    专辑管理&nbsp;
+                    <button type="button" onclick="albumadd()">添加</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                    <table id="mytable" width="100%"
+                           align="center"
+                           cellspacing="0"
+                           cellpadding="10">
+                        <thead>
+                        <tr class="trs">
+                            <td>专辑</td>
+                            <td>歌手</td>
+                            <td>流派</td>
+                            <td>语言</td>
+                            <td>唱片公司</td>
+                            <td>唱片类型</td>
+                            <td>操作</td>
+                        </tr>
+                        </thead>
+                        <tbody id="mytbody" class="trs">
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="footer">
+        <img src="../Resourse/button_hanbing.PNG" width="170" height="90" style="float: right">
+    </div>
+
+</div>
+
+<script src="../JavaScripts/album-list.js"></script>
+
+</body>
+</html>
