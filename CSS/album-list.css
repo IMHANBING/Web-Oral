@@ -99,9 +99,10 @@ html, body {
     float: right;
     background-color: azure;
     box-sizing: border-box;
-    border-top: 2px cornflowerblue dashed;
-    border-left: 2px cornflowerblue dashed;
-    border-bottom: 2px cornflowerblue dashed;
+    border-top: 2px orchid dashed;
+    border-left: 2px orchid dashed;
+    border-bottom: 2px orchid dashed;
+    border-radius: 5px;
 }
 
 .footer {
@@ -151,4 +152,16 @@ a:active{
     border-radius: 10px;
     background-color: azure;
     font-family: 'Heiti SC';
+}
+button{
+    color: orchid;
+    background-color: lightcyan;
+    border: orchid 2px dotted;
+    border-radius: 10px;
+}
+button:hover{
+    color: lavender;
+    background-color: slateblue;
+    border: 2px dotted aquamarine;
+    border-radius: 10px;
 }
