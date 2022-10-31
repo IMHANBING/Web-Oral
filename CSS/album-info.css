@@ -90,3 +90,14 @@ a:active{
     color: lightcyan;
     background-color: aquamarine;
 }
+hr{
+    border: 0;
+    padding: 3px;
+    background: repeating-linear-gradient(
+            135deg,
+            #9796f0 0px,
+            #9796f0 1px,
+            transparent 1px,
+            transparent 6px
+    );
+}

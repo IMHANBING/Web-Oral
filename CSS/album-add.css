@@ -103,7 +103,7 @@ html, body {
     float: left;
 
     background-color: white;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 .header {
@@ -112,7 +112,7 @@ html, body {
     float: right;
 
     background-color: white;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 .content {
@@ -133,7 +133,7 @@ html, body {
     float: right;
 
     background-color: white;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 div {
