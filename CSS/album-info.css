@@ -8,6 +8,7 @@ html, body {
     width: auto;
     margin: 0 auto;
     height: 100vh;
+    background-image: linear-gradient(to right,#9796f0,#fbc7d4);
 }
 
 .lefter {
@@ -15,8 +16,8 @@ html, body {
     height: 100vh;
     float: left;
 
-    background-color: lavender;
-    opacity: 0.8;
+    background-color: white;
+    opacity: 0.5;
 }
 
 .header {
@@ -24,8 +25,8 @@ html, body {
     height: 60px;
     float: right;
 
-    background-color: lavender;
-    opacity: 0.8;
+    background-color: white;
+    opacity: 0.5;
 }
 
 .content {
@@ -37,6 +38,7 @@ html, body {
     border-top: 2px cornflowerblue dashed;
     border-left: 2px cornflowerblue dashed;
     border-bottom: 2px cornflowerblue dashed;
+    opacity: 0.7;
 }
 
 .footer {
@@ -44,8 +46,8 @@ html, body {
     height: 100px;
     float: right;
 
-    background-color: lavender;
-    opacity: 0.8;
+    background-color: white;
+    opacity: 0.5;
 }
 
 div {

@@ -19,7 +19,10 @@ td {
     padding: 20px;
     text-align: center;
 }
-
+.addlt{
+    font-family: Helvetica;
+    font-size: 35px;
+}
 .trs {
     border: 1px cyan dashed;
 }
@@ -73,6 +76,7 @@ html, body {
     width: auto;
     margin: 0 auto;
     height: 100vh;
+    background-image: linear-gradient(to bottom right,#00fff0,#0083fe);
 }
 
 .lefter {
@@ -103,6 +107,7 @@ html, body {
     border-left: 2px orchid dashed;
     border-bottom: 2px orchid dashed;
     border-radius: 5px;
+    opacity: 0.95;
 }
 
 .footer {
@@ -170,4 +175,12 @@ button:active{
     background-color: aquamarine;
     border: 2px dotted lavender;
     border-radius: 10px;
+}
+.btnlocation{
+    width: 150px;
+    height: 50px;
+    font-size: 1em;
+    margin-left: 20px;
+    margin-top: 30px;
+    border: 2px dotted orchid;
 }
