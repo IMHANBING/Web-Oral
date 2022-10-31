@@ -165,3 +165,9 @@ button:hover{
     border: 2px dotted aquamarine;
     border-radius: 10px;
 }
+button:active{
+    color: lightcyan;
+    background-color: aquamarine;
+    border: 2px dotted lavender;
+    border-radius: 10px;
+}

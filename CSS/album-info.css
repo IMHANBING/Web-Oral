@@ -11,7 +11,7 @@ html, body {
 }
 
 .lefter {
-    width: 200px;
+    width: 150px;
     height: 100vh;
     float: left;
 
@@ -20,7 +20,7 @@ html, body {
 }
 
 .header {
-    width: calc(100% - 200px);
+    width: calc(100% - 150px);
     height: 60px;
     float: right;
 
@@ -29,7 +29,7 @@ html, body {
 }
 
 .content {
-    width: calc(100% - 200px);
+    width: calc(100% - 150px);
     height: calc(100% - 60px - 100px);
     float: right;
     background-color: #fffef8;
@@ -40,7 +40,7 @@ html, body {
 }
 
 .footer {
-    width: calc(100% - 200px);
+    width: calc(100% - 150px);
     height: 100px;
     float: right;
 
@@ -63,8 +63,8 @@ a{
     width: 150px;
     text-align: center;
     line-height: 2;
-    color: lightpink;
-    border: 1px dashed lightpink;
+    color: cornflowerblue;
+    border: 2px dashed cornflowerblue;
     font-size: 1.7em;
     border-radius: 10px;
     background-color: azure;
@@ -74,7 +74,7 @@ a:link{
     color: lightseagreen;
 }
 a:visited{
-    color: lightpink;
+    color: cornflowerblue;
 }
 a:focus{
     border-bottom: 1px dashed;

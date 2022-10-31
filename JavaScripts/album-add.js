@@ -22,6 +22,7 @@ function save() {
         albumSinger: document.querySelector('#albumSinger').value,
         albumType: albumTypeValue,
         language: languageValue,
+        albumAddress: document.querySelector('#albumAddress').value,
         albumEntertainment: document.querySelector('#albumEntertainment').value,
         albumPublish:document.querySelector('#albumPublish').value,
         albumInfo: document.querySelector('#albumInfo').value

@@ -24,6 +24,7 @@ function initForm() {
             list[i].selected = true;
         }
     }
+    document.querySelector('#albumAddress').value = album.albumAddress;
     document.querySelector('#albumPublish').value = album.albumPublish;
     document.querySelector('#albumEntertainment').value = album.albumEntertainment;
     document.querySelector('#albumInfo').value = album.albumInfo;
@@ -53,6 +54,7 @@ function save() {
         albumSinger: document.querySelector('#albumSinger').value,
         albumType: albumTypeValue,
         language: languageValue,
+        albumAddress: document.querySelector('#albumAddress').value,
         albumPublish:document.querySelector('#albumPublish').value,
         albumEntertainment: document.querySelector('#albumEntertainment').value,
         albumInfo: document.querySelector('#albumInfo').value

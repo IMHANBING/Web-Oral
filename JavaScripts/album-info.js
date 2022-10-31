@@ -39,6 +39,7 @@ function initInfo() {
         document.querySelector('#language').innerHTML = '纯音乐';
     }
 
+    document.querySelector('#albumAddress').innerHTML = album.albumAddress;
     document.querySelector('#albumPublish').innerHTML = album.albumPublish;
     document.querySelector('#albumEntertainment').innerHTML = album.albumEntertainment;
     document.querySelector('#albumInfo').innerHTML = album.albumInfo;

@@ -14,6 +14,7 @@ function initTable() {
                 albumSinger: 'ITZY',
                 albumType: '0',
                 language: '1',
+                albumAddress: 'https://y.qq.com/n/ryqq/albumDetail/003GXBB11SGg5a',
                 albumEntertainment: 'JYP Entertainment',
                 albumPublish: 'EP',
                 albumInfo: '以全新造型亮相的ITZY，在"懂得真实表达自我的堂堂自信"中显现了"将享受自己的路"的坚定决心。MV中描绘了以"SNEAKERS"(运动鞋)为媒介唤醒自由价值的模样, "向着更好的未来大步迈进"的成员们的存在感令人瞩目。以压倒性的表演实力为武器开启4代偶像时代的她们，标志性的群舞场面也让人倍感期待。'
