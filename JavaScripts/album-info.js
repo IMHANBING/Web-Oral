@@ -4,6 +4,7 @@ let albumlist = JSON.parse(sessionStorage.getItem('albumlist'));
 //显示数据
 initInfo();
 
+
 function initInfo() {
     let album = albumlist[selectedIndex];
 
@@ -39,8 +40,17 @@ function initInfo() {
         document.querySelector('#language').innerHTML = '纯音乐';
     }
 
-    document.querySelector('#albumAddress').innerHTML = album.albumAddress;
+    document.querySelector('#albumAddress').innerHTML = '<a onclick="albumAddress()">' + album.albumAddress + '</a>';
     document.querySelector('#albumPublish').innerHTML = album.albumPublish;
     document.querySelector('#albumEntertainment').innerHTML = album.albumEntertainment;
     document.querySelector('#albumInfo').innerHTML = album.albumInfo;
+
+
+}
+
+function albumAddress(){
+    let go = albumlist[selectedIndex];
+    document.querySelector('#albumAddress').innerHTML = go.albumAddress;
+    let address = document.querySelector('#albumAddress').innerHTML;
+    location.replace(address)
 }

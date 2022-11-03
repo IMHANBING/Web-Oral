@@ -61,10 +61,7 @@ p {
     font-size: 1.5em;
 }
 
-a{
-    outline: none;
-    text-decoration: none;
-    display: inline-block;
+button{
     width: 150px;
     text-align: center;
     line-height: 2;
@@ -75,21 +72,21 @@ a{
     background-color: azure;
     opacity: 0.7;
 }
-a:link{
+button:link{
     color: lightseagreen;
 }
-a:visited{
+button:visited{
     color: cornflowerblue;
 }
-a:focus{
+button:focus{
     border-bottom: 1px dashed;
 }
-a:hover{
+button:hover{
     color: lavender;
     background-color: slateblue;
     border: 2px dashed lightcyan;
 }
-a:active{
+button:active{
     color: lightcyan;
     background-color: aquamarine;
 }
@@ -98,9 +95,30 @@ hr{
     padding: 3px;
     background: repeating-linear-gradient(
             135deg,
-            #9796f0 0px,
-            #9796f0 1px,
+            cornflowerblue 0px,
+            cornflowerblue 1px,
             transparent 1px,
             transparent 6px
     );
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    outline: none;
+    color: cornflowerblue;
+}
+a:link{
+    color: lightseagreen;
+}
+a:visited{
+    color: cornflowerblue;
+}
+a:hover{
+    color: lavender;
+    background-color: slateblue;
+}
+a:active{
+    color: lightcyan;
+    background-color: aquamarine;
 }
