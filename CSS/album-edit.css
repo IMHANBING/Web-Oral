@@ -97,7 +97,10 @@ html, body {
     width: auto;
     margin: 0 auto;
     height: 100vh;
-    background-image: linear-gradient(to right,#d9a7c7,#fffcdc);
+    background-image: url("../Resourse/flwr.jpg");
+    background-size: 100%;
+    background-repeat: space;
+    /*background-image: linear-gradient(to right,#d9a7c7,#fffcdc);*/
 }
 
 .lefter {

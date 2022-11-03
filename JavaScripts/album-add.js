@@ -37,8 +37,12 @@ function save() {
     sessionStorage.setItem('albumlist', JSON.stringify(albumlist))
 
     location.href = 'Album-List.html';
+    alert("上架成功");
 }
 
 function cancel() {
-    location.href = 'Album-List.html';
+    let ok = confirm('放弃上架专辑？');
+    if(ok){
+        location.href = 'Album-List.html';
+    }
 }

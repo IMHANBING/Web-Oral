@@ -8,7 +8,10 @@ html, body {
     width: auto;
     margin: 0 auto;
     height: 100vh;
-    background-image: linear-gradient(to right,#9796f0,#fbc7d4);
+    background-image: url("../Resourse/flwr.jpg");
+    background-size: 100%;
+    background-repeat: space;
+    /*background-image: linear-gradient(to right,#9796f0,#fbc7d4);*/
 }
 
 .lefter {
@@ -17,7 +20,7 @@ html, body {
     float: left;
 
     background-color: white;
-    opacity: 0.5;
+    opacity: 0.6;
 }
 
 .header {
@@ -26,7 +29,7 @@ html, body {
     float: right;
 
     background-color: white;
-    opacity: 0.5;
+    opacity: 0.6;
 }
 
 .content {
@@ -38,7 +41,7 @@ html, body {
     border-top: 2px cornflowerblue dashed;
     border-left: 2px cornflowerblue dashed;
     border-bottom: 2px cornflowerblue dashed;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .footer {
@@ -47,7 +50,7 @@ html, body {
     float: right;
 
     background-color: white;
-    opacity: 0.5;
+    opacity: 0.6;
 }
 
 div {

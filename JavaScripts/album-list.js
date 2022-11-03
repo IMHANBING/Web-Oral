@@ -88,7 +88,6 @@ function initTable() {
             '<button type="button" onclick="albumedit(this)">修改</button>&nbsp;' +
             '<button type="button" onclick="albumdel(this)">删除</button>'
     })
-
 }
 
 function albumadd() {
@@ -107,20 +106,25 @@ function albumedit(obj) {
 
 //删除
 function albumdel(obj) {
-    //1.1传进来的是一个按钮对象，通过按钮得到当前行
-    let currentRow = (obj.parentElement).parentElement
-    //1.2得到当前行索引
-    let index = currentRow.sectionRowIndex
+    let ok = confirm("您确认要删除这张专辑吗？");
+    if (ok) {
+        //1.1传进来的是一个按钮对象，通过按钮得到当前行
+        let currentRow = (obj.parentElement).parentElement
+        //1.2得到当前行索引
+        let index = currentRow.sectionRowIndex
 
-    //2 从sessionStorage获得数据
-    let albumlist = JSON.parse(sessionStorage.getItem('albumlist'));
-    //3 从albumlist删除指定位置的元素
-    albumlist.splice(index, 1);
-    //4 把表格存回sessionStorage
-    sessionStorage.setItem("albumlist", JSON.stringify(albumlist));
-    //5 删除表格选中的行
-    let mytbody = document.querySelector('#mytbody');
-    mytbody.deleteRow(index);
+        //2 从sessionStorage获得数据
+        let albumlist = JSON.parse(sessionStorage.getItem('albumlist'));
+        //3 从albumlist删除指定位置的元素
+        albumlist.splice(index, 1);
+        //4 把表格存回sessionStorage
+        sessionStorage.setItem("albumlist", JSON.stringify(albumlist));
+        //5 删除表格选中的行
+        let mytbody = document.querySelector('#mytbody');
+        mytbody.deleteRow(index);
+    } else {
+
+    }
 }
 
 function albuminfo(obj) {
@@ -130,4 +134,8 @@ function albuminfo(obj) {
     let index = currentRow.sectionRowIndex
     //把选中的行索引放进sessionStorage,供详情页面使用
     sessionStorage.setItem('selectedIndex', index);
+}
+
+function back(){
+    location.href = 'Welcome.html';
 }

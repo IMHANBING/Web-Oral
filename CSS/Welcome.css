@@ -1,0 +1,35 @@
+button{
+    color: orchid;
+    background-color: lightcyan;
+    border: orchid 2px dotted;
+    border-radius: 10px;
+}
+button:hover{
+    color: lavender;
+    background-color: slateblue;
+    border: 2px dotted aquamarine;
+    border-radius: 10px;
+}
+button:active{
+    color: lightcyan;
+    background-color: aquamarine;
+    border: 2px dotted lavender;
+    border-radius: 10px;
+}
+.btnlocation{
+    font-family: Zapfino;
+    width: 1000px;
+    height: 220px;
+    font-size: 3.3em;
+    margin-top: 270px;
+    line-height: 5;
+    opacity: 0.8;
+}
+
+body{
+    width: auto;
+    height: auto;
+    background-image: url("../Resourse/flwr.jpg");
+    background-size: 100%;
+    background-repeat: space;
+}
