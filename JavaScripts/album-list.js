@@ -139,3 +139,5 @@ function albuminfo(obj) {
 function back(){
     location.href = 'Welcome.html';
 }
+
+console.log('活在静谧的十三月🌱');

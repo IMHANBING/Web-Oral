@@ -10,7 +10,7 @@ function initInfo() {
 
     document.querySelector('#albumTitle').innerHTML = album.albumName;
     document.querySelector('#albumName').innerHTML = album.albumName;
-    document.querySelector('#albumSinger').innerHTML = album.albumSinger;
+    document.querySelector('#albumSinger').innerHTML = '<a onclick="albumSinger()">' + album.albumSinger + '</a>';
     if (album.albumType == 0) {
         document.querySelector('#albumType').innerHTML = 'POP';
     } else if (album.albumType == 1) {
@@ -42,7 +42,7 @@ function initInfo() {
 
     document.querySelector('#albumAddress').innerHTML = '<a onclick="albumAddress()">' + album.albumAddress + '</a>';
     document.querySelector('#albumPublish').innerHTML = album.albumPublish;
-    document.querySelector('#albumEntertainment').innerHTML = album.albumEntertainment;
+    document.querySelector('#albumEntertainment').innerHTML = '<a onclick="albumEntertainment()">' + album.albumEntertainment + '</a>';
     document.querySelector('#albumInfo').innerHTML = album.albumInfo;
 
 
@@ -53,4 +53,18 @@ function albumAddress(){
     document.querySelector('#albumAddress').innerHTML = go.albumAddress;
     let address = document.querySelector('#albumAddress').innerHTML;
     location.replace(address)
+}
+
+function albumSinger(){
+    let go1 = albumlist[selectedIndex];
+    document.querySelector('#albumSinger').innerHTML = go1.albumSinger;
+    let singer = document.querySelector('#albumSinger').innerHTML;
+    location.replace('https://baike.baidu.com/item/' + singer)
+}
+
+function albumEntertainment(){
+    let go2 = albumlist[selectedIndex];
+    document.querySelector('#albumEntertainment').innerHTML = go2.albumEntertainment;
+    let Entertainment = document.querySelector('#albumEntertainment').innerHTML;
+    location.replace('https://www.baidu.com/s?ie=UTF-8&wd=' + Entertainment)
 }
