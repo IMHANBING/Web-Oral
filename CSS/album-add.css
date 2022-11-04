@@ -101,7 +101,7 @@ html, body {
 }
 
 .lefter {
-    width: 150px;
+    width: 120px;
     height: 100vh;
     float: left;
 
@@ -110,7 +110,7 @@ html, body {
 }
 
 .header {
-    width: calc(100% - 150px);
+    width: calc(100% - 120px);
     height: 60px;
     float: right;
 
@@ -119,8 +119,8 @@ html, body {
 }
 
 .content {
-    width: calc(100% - 150px);
-    height: calc(100% - 60px - 100px);
+    width: calc(100% - 120px);
+    height: calc(100% - 120px);
     float: right;
     background-color: #fffef8;
     box-sizing: border-box;
@@ -131,8 +131,8 @@ html, body {
 }
 
 .footer {
-    width: calc(100% - 150px);
-    height: 100px;
+    width: calc(100% - 120px);
+    height: 60px;
     float: right;
 
     background-color: white;
