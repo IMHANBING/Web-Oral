@@ -140,4 +140,9 @@ function back(){
     location.href = 'Welcome.html';
 }
 
+function toItem() {
+    location.href = 'UserInfo.html';
+
+}
+
 console.log('活在静谧的十三月🌱');
