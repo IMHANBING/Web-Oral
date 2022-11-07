@@ -18,6 +18,36 @@ function initTable() {
                 albumEntertainment: 'JYP Entertainment',
                 albumPublish: 'EP',
                 albumInfo: '以全新造型亮相的ITZY，在"懂得真实表达自我的堂堂自信"中显现了"将享受自己的路"的坚定决心。MV中描绘了以"SNEAKERS"(运动鞋)为媒介唤醒自由价值的模样, "向着更好的未来大步迈进"的成员们的存在感令人瞩目。以压倒性的表演实力为武器开启4代偶像时代的她们，标志性的群舞场面也让人倍感期待。'
+            },
+            {
+                albumName: '4 Walls',
+                albumSinger: 'f(x)',
+                albumType: '0',
+                language: '1',
+                albumAddress: 'https://y.qq.com/n/ryqq/albumDetail/003Wz9eT1bsBm9',
+                albumEntertainment: 'SM Entertainment',
+                albumPublish: 'EP',
+                albumInfo: '유일무이 걸그룹 f(x)가 드디어 돌아온다! 정규 4집 앨범 ‘4 Walls’ 전격 공개! -타이틀 곡 ‘4 Walls’ 포함 일렉트로닉 장르의 총 10곡 수록! -국내외 히트메이커 대거 참여, 완성도 UP!'
+            },
+            {
+                albumName: '最伟大的作品',
+                albumSinger: '周杰伦',
+                albumType: '3',
+                language: '0',
+                albumAddress: 'https://y.qq.com/n/ryqq/albumDetail/0042cH172YJ0mz',
+                albumEntertainment: '杰威尔音乐有限公司',
+                albumPublish: '录音室专辑',
+                albumInfo: '首波发布专辑同名单曲「最伟大的作品」，融合文学与艺术主题，向世界上伟大的艺术家致敬；而众聆听者，即将跟着时空旅人周杰伦的眼睛与耳朵，阅览徐志摩的诗文、玛格丽特、达利、梵高、莫奈的创作心灵、古风鱼雁的情怀、触景动心的抒情；无论是哪瞬烟火的灿烂、或是从不曾见过的风景，在这些歌里，彷佛都如临其境，跟随着周杰伦一起在创作的路上壮游世界！'
+            },
+            {
+                albumName: 'V',
+                albumSinger: 'Maroon 5',
+                albumType: '1',
+                language: '3',
+                albumAddress: 'https://y.qq.com/n/ryqq/albumDetail/0006ftqt2nAMYV',
+                albumEntertainment: 'Universal Music Group',
+                albumPublish: 'Deluxe',
+                albumInfo: 'Maroon 5 2014强势大碟出炉！Adam 那标志性的骚音听着就让你无法抗拒！你还在等什么？快来接受洗礼吧！'
             }
         ]
         sessionStorage.setItem('albumlist', JSON.stringify(albumlist))

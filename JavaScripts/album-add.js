@@ -28,6 +28,7 @@ function save() {
         albumInfo: document.querySelector('#albumInfo').value
     }
 
+    alert("上架成功");
 
     let albumlist = JSON.parse(sessionStorage.getItem('albumlist'));
 
@@ -37,7 +38,7 @@ function save() {
     sessionStorage.setItem('albumlist', JSON.stringify(albumlist))
 
     location.href = 'Album-List.html';
-    alert("上架成功");
+
 }
 
 function cancel() {

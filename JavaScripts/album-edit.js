@@ -59,6 +59,9 @@ function save() {
         albumEntertainment: document.querySelector('#albumEntertainment').value,
         albumInfo: document.querySelector('#albumInfo').value
     }
+
+    alert('修改成功');
+
     //修改数组中的专辑
     albumlist.splice(selectedIndex, 1, album);
 
@@ -66,7 +69,7 @@ function save() {
     sessionStorage.setItem('albumlist', JSON.stringify(albumlist))
 
     location.href = 'Album-List.html';
-    alert('修改成功');
+
 }
 
 function cancel() {

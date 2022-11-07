@@ -17,12 +17,12 @@ button:active{
     border-radius: 10px;
 }
 .btnlocation{
-    font-family: Zapfino;
+    font-family: Vivaldi;
     width: 1000px;
     height: 220px;
-    font-size: 3.3em;
+    font-size: 5.5em;
     margin-top: 270px;
-    line-height: 5;
+    line-height: 2;
 }
 
 body{
