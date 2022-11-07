@@ -3,7 +3,7 @@ table {
     margin: 0 auto;
     table-layout: fixed;
     width: 100%;
-    color: #15231b;
+    color: cornflowerblue;
     font-family: Verdana;
     background-color: lightcyan;
     border-collapse: collapse;
@@ -71,17 +71,26 @@ button {
     border: 2px cornflowerblue dashed;
 }
 input{
+    color: mediumslateblue;
     background-color: aliceblue;
-    font-size: 20px
+    font-size: 20px;
+    border: 2px dashed cornflowerblue;
+    border-radius: 10px;
 }
 textarea{
+    color: mediumslateblue;
     background-color: aliceblue;
-    font-size: 20px
+    font-size: 20px;
+    border: 2px dashed cornflowerblue;
+    border-radius: 10px;
 }
 select{
-    font-size: 1em;
-    background-color: azure;
-    width: 200px
+    color: mediumslateblue;
+    font-size: 20px;
+    background-color: aliceblue;
+    width: 200px;
+    border: 2px dashed cornflowerblue;
+    border-radius: 10px;
 }
 
 /*HTML样式*/

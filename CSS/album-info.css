@@ -58,7 +58,12 @@ div {
 }
 
 p {
+    color: #a6a6ff;
     font-size: 1.5em;
+}
+
+h1 {
+    color: #a6a6ff;
 }
 
 button{

@@ -48,6 +48,16 @@ function initTable() {
                 albumEntertainment: 'Universal Music Group',
                 albumPublish: 'Deluxe',
                 albumInfo: 'Maroon 5 2014强势大碟出炉！Adam 那标志性的骚音听着就让你无法抗拒！你还在等什么？快来接受洗礼吧！'
+            },
+            {
+                albumName: 'Negai',
+                albumSinger: '当山真玲',
+                albumType: '6',
+                language: '2',
+                albumAddress: 'https://y.qq.com/n/ryqq/albumDetail/002TOVre3tDgBD',
+                albumEntertainment: 'Sony Music Entertainment',
+                albumPublish: 'Single',
+                albumInfo: '彼女にとって昨年11月発売のシングル「君のとなり」以来の作品となる「願い E.P.」。表題曲「願い～あの頃のキミへ～」は童子-TがYU-Aをフィーチャリングゲストに迎えて2008年にリリースしたヒット曲「願い feat. YU-A」のリアレンジバージョンで、女性目線での歌詞に書き換えたアンサーソングに仕上がっている。'
             }
         ]
         sessionStorage.setItem('albumlist', JSON.stringify(albumlist))
