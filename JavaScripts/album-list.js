@@ -108,7 +108,7 @@ function initTable() {
             col3.innerHTML = '韩语';
         } else if (album.language == 2) {
             col3.innerHTML = '日语';
-        } else if (album.language== 3) {
+        } else if (album.language == 3) {
             col3.innerHTML = '英语';
         } else if (album.language == 4) {
             col3.innerHTML = '纯音乐';
@@ -176,7 +176,7 @@ function albuminfo(obj) {
     sessionStorage.setItem('selectedIndex', index);
 }
 
-function back(){
+function back() {
     location.href = 'Welcome.html';
 }
 

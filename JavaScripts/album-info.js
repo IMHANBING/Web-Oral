@@ -48,21 +48,21 @@ function initInfo() {
 
 }
 
-function albumAddress(){
+function albumAddress() {
     let go = albumlist[selectedIndex];
     document.querySelector('#albumAddress').innerHTML = go.albumAddress;
     let address = document.querySelector('#albumAddress').innerHTML;
     location.replace(address)
 }
 
-function albumSinger(){
+function albumSinger() {
     let go1 = albumlist[selectedIndex];
     document.querySelector('#albumSinger').innerHTML = go1.albumSinger;
     let singer = document.querySelector('#albumSinger').innerHTML;
     location.replace('https://baike.baidu.com/item/' + singer)
 }
 
-function albumEntertainment(){
+function albumEntertainment() {
     let go2 = albumlist[selectedIndex];
     document.querySelector('#albumEntertainment').innerHTML = go2.albumEntertainment;
     let Entertainment = document.querySelector('#albumEntertainment').innerHTML;

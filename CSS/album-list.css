@@ -19,16 +19,18 @@ td {
     padding: 15px;
     text-align: center;
 }
-.addlt{
+
+.addlt {
     font-family: Helvetica;
     font-size: 35px;
 }
+
 tbody {
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
 }
 
-.trs{
+.trs {
     border: 1px cyan dashed;
 }
 
@@ -131,7 +133,7 @@ div {
     font-size: 1.2em;
 }
 
-a{
+a {
     outline: none;
     text-decoration: none;
     display: inline-block;
@@ -139,19 +141,22 @@ a{
     color: cornflowerblue;
 }
 
-a:link{
+a:link {
     color: lightseagreen;
 }
-a:hover{
+
+a:hover {
     color: lavender;
     background-color: slateblue;
     border: 1px dashed lightcyan;
 }
-a:active{
+
+a:active {
     color: lightcyan;
     background-color: aquamarine;
 }
-.ast{
+
+.ast {
     font-size: 1em;
     outline: none;
     text-decoration: none;
@@ -167,25 +172,29 @@ a:active{
     border-radius: 10px;
     font-family: 'Heiti SC';
 }
-button{
+
+button {
     color: cornflowerblue;
     background-color: lightcyan;
     border: cornflowerblue 2px dotted;
     border-radius: 10px;
 }
-button:hover{
+
+button:hover {
     color: lavender;
     background-color: slateblue;
     border: 2px dotted aquamarine;
     border-radius: 10px;
 }
-button:active{
+
+button:active {
     color: lightcyan;
     background-color: aquamarine;
     border: 2px dotted lavender;
     border-radius: 10px;
 }
-.btnlocation{
+
+.btnlocation {
     width: 100px;
     height: 50px;
     font-size: 20px;
@@ -194,7 +203,7 @@ button:active{
     border: 2px dotted cornflowerblue;
 }
 
-.btnlocation2{
+.btnlocation2 {
     width: 100px;
     height: 50px;
     font-size: 13px;

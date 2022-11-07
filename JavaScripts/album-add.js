@@ -24,7 +24,7 @@ function save() {
         language: languageValue,
         albumAddress: document.querySelector('#albumAddress').value,
         albumEntertainment: document.querySelector('#albumEntertainment').value,
-        albumPublish:document.querySelector('#albumPublish').value,
+        albumPublish: document.querySelector('#albumPublish').value,
         albumInfo: document.querySelector('#albumInfo').value
     }
 
@@ -43,7 +43,7 @@ function save() {
 
 function cancel() {
     let ok = confirm('放弃上架专辑？');
-    if(ok){
+    if (ok) {
         location.href = 'Album-List.html';
     }
 }

@@ -1,22 +1,25 @@
-button{
+button {
     color: lavender;
     background-color: rgba(106, 90, 205, 0.06);
     border: 1px dotted rgba(127, 255, 212, 0);
     border-radius: 10px;
 }
-button:hover{
+
+button:hover {
     color: #a6a6ff;
     background-color: rgba(224, 255, 255, 0.25);
     border: rgba(166, 166, 255, 0) 1px dotted;
     border-radius: 10px;
 }
-button:active{
+
+button:active {
     color: lightcyan;
     background-color: rgba(127, 255, 212, 0.56);
     border: 1px dotted rgba(230, 230, 250, 0);
     border-radius: 10px;
 }
-.btnlocation{
+
+.btnlocation {
     font-family: Vivaldi;
     width: 1000px;
     height: 220px;
@@ -25,7 +28,7 @@ button:active{
     line-height: 2;
 }
 
-body{
+body {
     width: auto;
     height: auto;
     background-image: url("../Resourse/flwr.jpg");

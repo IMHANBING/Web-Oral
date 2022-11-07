@@ -55,7 +55,7 @@ function save() {
         albumType: albumTypeValue,
         language: languageValue,
         albumAddress: document.querySelector('#albumAddress').value,
-        albumPublish:document.querySelector('#albumPublish').value,
+        albumPublish: document.querySelector('#albumPublish').value,
         albumEntertainment: document.querySelector('#albumEntertainment').value,
         albumInfo: document.querySelector('#albumInfo').value
     }
@@ -74,7 +74,7 @@ function save() {
 
 function cancel() {
     let ok = confirm('放弃修改内容？');
-    if(ok){
+    if (ok) {
         location.href = 'Album-List.html';
     }
 }

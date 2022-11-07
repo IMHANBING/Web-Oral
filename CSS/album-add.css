@@ -18,13 +18,16 @@ td {
     padding: 20px;
     text-align: center;
 }
-.addlt{
+
+.addlt {
     font-family: Helvetica;
     font-size: 35px;
 }
+
 .trs {
     border: 1px cyan dashed;
 }
+
 .tds {
     font-size: 16px;
 }
@@ -67,24 +70,27 @@ button {
     color: #15231b;
 }
 
-.tbs{
+.tbs {
     border: 2px cornflowerblue dashed;
 }
-input{
+
+input {
     color: mediumslateblue;
     background-color: aliceblue;
     font-size: 20px;
     border: 2px dashed cornflowerblue;
     border-radius: 10px;
 }
-textarea{
+
+textarea {
     color: mediumslateblue;
     background-color: aliceblue;
     font-size: 20px;
     border: 2px dashed cornflowerblue;
     border-radius: 10px;
 }
-select{
+
+select {
     color: mediumslateblue;
     font-size: 20px;
     background-color: aliceblue;
@@ -152,19 +158,21 @@ div {
     font-size: 1.2em;
 }
 
-button{
+button {
     color: cornflowerblue;
     background-color: lightcyan;
     border: cornflowerblue 2px dotted;
     border-radius: 10px;
 }
-button:hover{
+
+button:hover {
     color: lavender;
     background-color: slateblue;
     border: 2px dotted aquamarine;
     border-radius: 10px;
 }
-button:active{
+
+button:active {
     color: lightcyan;
     background-color: aquamarine;
     border: 2px dotted lavender;
